@@ -51,7 +51,7 @@ nav ul li img:hover{
     background: #4d6181;
 }
 .container{
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 0 150px;
 }
 .top-icons{
@@ -103,7 +103,6 @@ nav ul li img:hover{
     padding: 30px 40px 50px;
     color: #fff;
     margin-left: 15px;
-
 }
 .joined div{
     margin-top: 20px;
@@ -130,4 +129,62 @@ nav ul li img:hover{
     margin-left: 5px;
     border-radius: 50%;
     cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+.header{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 70px;
+    padding: 12px 5px;
+}
+.logo{
+    width: 47px;
+    height: 47px;
+}
+nav ul{
+    margin-top: 90px;
+}
+nav ul li img{
+    width: 45px;
+}
+.container{
+    margin-left: 2%;
+    padding: 10px 80px;
+}
+.top-icons img{
+    width: 20px;
+    margin-left: 30px;
+}
+.row{
+    margin-top: 20px;
+    display: block;
+}
+.row .col-1{
+    margin-bottom: 20px;
+}
+.host-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.controls img{
+    width: 30px;
+    margin: 5px 10px;
+}
+.joined{
+    padding:25px;
+}
+.joined div{
+    display: inline-block;
+
+}
+.joined img{
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+.invite img{
+    width: 80px;
+    margin-left: 15px;
+}
 }
